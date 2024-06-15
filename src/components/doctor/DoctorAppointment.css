@@ -1,0 +1,38 @@
+/* DoctorAppointment.css */
+
+.doc-appointment-container {
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+.doc-appointment-heading {
+  color: #8ecae6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doc-appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.doc-appointments-table th,
+.doc-appointments-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.doc-appointments-table th {
+  background-color: #a2d2ff;
+  color: white;
+}
+
+.doc-appointments-table tbody tr:nth-child(even) {
+  background-color: #d4edda;
+}
+
+.doc-appointments-table tbody tr:hover {
+  background-color: #8ecae6;
+  color: white;
+}

@@ -1,0 +1,120 @@
+/* Billing.css */
+
+.billing-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.bill-head {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+  color: #2c662d; /* Dark green color for headers */
+}
+
+.billing-form {
+  background-color: #fff; /* White background for the form */
+  border: 2px solid #2c662d; /* Dark green border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+select,
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+.selected-services {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.selected-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #e7f5e7; /* Light green background for selected services */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.selected-service button {
+  background-color: #4caf50; /* Green color for remove button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.selected-service button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.billinput {
+  width: calc(100% - 20px);
+  max-width: 300px;
+}
+
+.billbutton {
+  background-color: #4caf50; /* Green color for main buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.billbutton:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.billing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.billing-table th,
+.billing-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.billing-table th {
+  background-color: #f2f2f2;
+  color: #2c662d; /* Dark green color for table headers */
+}
+
+.billing-table td {
+  color: #555;
+}
+
+.printbutton {
+  margin: 0 30%;
+}

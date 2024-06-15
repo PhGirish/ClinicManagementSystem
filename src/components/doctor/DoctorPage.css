@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+.doctor-app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.doctor-sidebar {
+  width: 300px;
+  background-color: #a2d2ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.doctor-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doctor-img {
+  position: relative;
+  bottom: 13px;
+  right: 15px;
+  width: 120px;
+  height: 120px;
+}
+
+.doch2 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.doctor-role {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.doc-a:hover {
+  background-color: #8ecae6;
+}
+
+.doctor-main-content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header .doctor-heading {
+  margin: 0;
+  font-size: 1.5em;
+  color: #8ecae6;
+}
+
+.doctor-logout {
+  background-color: #8ecae6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.doctor-content {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.doc-img-container {
+  border: 2px solid #0077b6;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  overflow: hidden;
+}

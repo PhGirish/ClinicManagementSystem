@@ -1,0 +1,46 @@
+/* DoctorViewPatient.css */
+
+.doc-patients-container {
+  background-color: f7f9fc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doch3 {
+  color: #8ecae6;
+  text-align: center;
+}
+
+.doc-patients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.doc-patients-table th,
+.doc-patients-table td {
+  border: 1px solid #8ecae6;
+  padding: 10px;
+  text-align: left;
+}
+
+.doc-patients-table th {
+  background-color: #a2d2ff;
+  color: white;
+}
+
+.doc-patients-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.doc-patients-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.doc-patients-table tbody tr:hover {
+  background-color: #d4edda;
+}

@@ -1,0 +1,63 @@
+.appointment-container {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+.editbtn {
+  margin: 5px 2px;
+  width: 100px;
+  height: 40px;
+}
+h2,
+h3 {
+  text-align: center;
+  color: #85b79d;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.appointment-form select,
+.appointment-form input,
+.appointment-form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #85b79d;
+  width: 80%;
+  max-width: 400px;
+}
+
+.appointment-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.appointment-form button:hover {
+  background-color: #218838;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.appointments-table th,
+.appointments-table td {
+  border: 1px solid #85b79d;
+  padding: 10px;
+  text-align: left;
+}
+
+.appointments-table th {
+  background-color: #85b79d;
+  color: white;
+}
